@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fillbox {
+    padding: 80px;
+}
+.container1 {
+    margin: 50px;
+    background-color: rgb(1, 1, 58);
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.container2{
+    padding: 10px;
+
+}
+.body{
+    display: grid;
+    grid-template-columns: 150px 50px 50px 10px 700px;
+    grid-gap: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+.body p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.fill {
+    margin-top: 40px;
+    padding-top: 40px;
+}
+.fill .formbutton {
+    margin-left: 10px;
+}
+.fill4 .stepindicator{
+    display: none;
+}
+.fill4 .stepseparator{
+    display: none;
+}
+@media only screen and (max-width: 400px){
+    .fillbox{
+        padding: 0px;
+        overflow: hidden;
+    }
+    .container1 {
+        margin: 2px;
+        padding: 5px;
+        color: white;
+        font-size: 10px;
+    }
+    .container2{
+        padding: 10px;
+    
+    }
+    .body{
+        display: grid;
+        grid-template-columns: 30px 5px 30px 15px 150px;
+        grid-gap: 5px;
+        margin: 10px;
+        font-size: 10px;
+    }
+    .body p {
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+    .fill {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .fill .formlabel {
+        font-size: 12px;
+    }
+    .fill .forminput {
+        font-size: 12px;
+        width: 160px;
+    }
+    .fill .formbutton {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .fill1 .box .steptitle{
+        font-size: 10px;
+    }
+    .fill2 .stepindicator {
+        display: none;
+    }
+    .fill2 .stepseparator {
+        display: none;
+    }
+    .fill4 .stepindicator{
+        display: flex;
+    }
+    .fill4 .stepseparator{
+        display: flex;
+    }
+    
+}
