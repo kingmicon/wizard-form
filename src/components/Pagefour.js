@@ -31,7 +31,7 @@ const Pagefour = (props) => {
     <hr></hr>
     <form onSubmit={handleSubmit(onSubmit)} className='fill'>
     <FormControl isInvalid={errors.address}>
-        <FormLabel htmlFor='address' className='formlabel'>Phone Number</FormLabel>
+        <FormLabel htmlFor='address' className='formlabel'>House Address</FormLabel>
         <Input
         className='forminput'
           placeholder='address'
